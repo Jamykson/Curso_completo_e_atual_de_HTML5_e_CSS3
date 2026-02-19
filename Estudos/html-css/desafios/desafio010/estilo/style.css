@@ -30,21 +30,51 @@ body{
 
 header{
 
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    text-align: center;
     background-color: var(--cor2);
+    min-height: 150px;
+    padding-top: 40px;
+    text-shadow:  2px 2px 0px rgba(0, 0, 0, 0.274);
+
 
 }
 
 header > h1{
     color: white;
     font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 
 header > p{
+    font-family: var(--fonte-padrao);
+    font-size: 1.em;
     color: white;
+    max-width: 500px;
+    padding-right: 10px: ;
+    margin: auto;
 }
 
 nav{
     background-color: var(--cor3);
+    padding: 10px;
+    background-color: 0px 7px 9px rgba(0, 0, 0, 0.295);
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor0);
+    color: var(--cor3);
+
 }
 
 main{
