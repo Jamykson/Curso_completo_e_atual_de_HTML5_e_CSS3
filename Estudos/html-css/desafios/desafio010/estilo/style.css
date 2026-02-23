@@ -4,7 +4,7 @@
 
 @font-face{
     font-family: 'Android';
-    src: url('/Estudos/html-css/desafios/desafio010/pacote-projeto-d010/fontes/idroid.otf') format('opentype'); /*Importando a fonte do arquivo e dando um nome a ela*/
+    src: url('fontes/idroid.otf') format('opentype'); /*Importando a fonte do arquivo e dando um nome a ela*/
 }
 
 :root{ /*Criando Variáveis*/
